@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.playwright-mcp/
+.claude/
+.codex/
+cache/
+*.log
+*.stackdump
+1810.03787v2.pdf

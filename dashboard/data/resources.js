@@ -1,0 +1,2 @@
+window.QCNN = window.QCNN || {};
+QCNN.resources = {"quick":false,"rows":[{"N":27,"d":1,"ours":61,"paper":27.0},{"N":27,"d":2,"ours":78,"paper":72.0},{"N":81,"d":1,"ours":187,"paper":81.0},{"N":81,"d":2,"ours":246,"paper":216.00000000000003},{"N":81,"d":3,"ours":263,"paper":261.0},{"N":243,"d":1,"ours":565,"paper":243.0},{"N":243,"d":2,"ours":750,"paper":648.0000000000001},{"N":243,"d":3,"ours":809,"paper":783.0},{"N":243,"d":4,"ours":826,"paper":828.0}]};

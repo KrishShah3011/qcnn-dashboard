@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Quantum Convolutional Neural Networks: a guided reproduction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- libraries (CDN) -->
+  <script defer src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <!-- precomputed data: a missing file just fails to load; sections show a notice -->
+  <script defer src="data/meta.js"></script>
+  <script defer src="data/circuit_demo.js"></script>
+  <script defer src="data/heisenberg.js"></script>
+  <script defer src="data/resources.js"></script>
+  <script defer src="data/qec.js"></script>
+  <script defer src="data/phase_ed.js"></script>
+  <script defer src="data/trained.js"></script>
+  <script defer src="data/phase_mps.js"></script>
+  <script defer src="data/cut.js"></script>
+  <!-- page code (defer keeps order) -->
+  <script defer src="js/common.js"></script>
+  <script defer src="js/sec-intro.js"></script>
+  <script defer src="js/sec-circuit.js"></script>
+  <script defer src="js/sec-phase.js"></script>
+  <script defer src="js/sec-learn.js"></script>
+  <script defer src="js/sec-qec.js"></script>
+</head>
+<body>
+  <nav class="rail" aria-label="Sections">
+    <div class="rail-title">Quantum Convolutional Neural Networks<small>a guided reproduction</small></div>
+    <ol>
+      <li><a href="#sec-hero"><i>&nbsp;</i><span>Overview</span></a></li>
+      <li><a href="#sec-idea"><i>§1</i><span>From CNN to QCNN</span></a></li>
+      <li><a href="#sec-physics"><i>§2</i><span>The phase we recognise</span></a></li>
+      <li><a href="#sec-circuit"><i>§3</i><span>An exact QCNN</span></a></li>
+      <li><a href="#sec-multiscale"><i>§4</i><span>What it measures</span></a></li>
+      <li><a href="#sec-phase"><i>§5</i><span>The phase diagram</span></a></li>
+      <li><a href="#sec-depth"><i>§6</i><span>Deeper is sharper</span></a></li>
+      <li><a href="#sec-samples"><i>§7</i><span>Sample complexity</span></a></li>
+      <li><a href="#sec-rgflow"><i>§8</i><span>Renormalisation</span></a></li>
+      <li><a href="#sec-learning"><i>§9</i><span>Learning a QCNN</span></a></li>
+      <li><a href="#sec-qec"><i>§10</i><span>Designing QEC codes</span></a></li>
+      <li><a href="#sec-hardware"><i>§11</i><span>Could we run it?</span></a></li>
+      <li><a href="#sec-verdict"><i>§12</i><span>Paper vs ours</span></a></li>
+    </ol>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+  </nav>
+  <main>
+    <section id="sec-hero" class="sec"></section>
+    <section id="sec-idea" class="sec"></section>
+    <section id="sec-physics" class="sec"></section>
+    <section id="sec-circuit" class="sec"></section>
+    <section id="sec-multiscale" class="sec"></section>
+    <section id="sec-phase" class="sec"></section>
+    <section id="sec-depth" class="sec"></section>
+    <section id="sec-samples" class="sec"></section>
+    <section id="sec-rgflow" class="sec"></section>
+    <section id="sec-learning" class="sec"></section>
+    <section id="sec-qec" class="sec"></section>
+    <section id="sec-hardware" class="sec"></section>
+    <section id="sec-verdict" class="sec"></section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,10 @@
+autoray==0.11.0
+cotengra==0.8.2
+numba==0.60.0
+numpy==2.0.2
+opt_einsum==3.4.0
+pytest==8.0.0
+quimb==1.15.0
+scipy==1.18.1
+torch==2.14.0
+tqdm==4.66.5
